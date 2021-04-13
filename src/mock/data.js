@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Agustin Diego Jaime || Dev',
+  title: 'Agustin Diego Jaime || Dev 💻',
   lang: 'es',
-  description: 'Bienvenidos a mi website',
+  description: '¡Hola! Soy Agustin Jaime, y este es mi portfolio !',
 };
 
 // ME DATA
