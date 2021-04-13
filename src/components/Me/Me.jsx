@@ -40,6 +40,13 @@ const Header = () => {
               </Link>
             </span>
           </p>
+          <p className="me-cta">
+            <span className="cta-btn cta-btn--me">
+              <Link to="projects" smooth duration={1500}>
+                Proyectos
+              </Link>
+            </span>
+          </p>
         </Fade>
       </Container>
     </section>
