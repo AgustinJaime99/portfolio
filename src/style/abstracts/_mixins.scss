@@ -4,6 +4,7 @@
 0 - 600px:          Phone
 600px - 900px       Table Portrait
 900px - 1200px      Table Landscape
+1024px - 1366px     iPad Pro
 [1200px - 1800px]   Desktop Normal Styles
 1800px +            Big Desktop
 
@@ -28,6 +29,12 @@
     @media (max-width: 56.25em) {
       @content;
     } //900px
+  }
+  //iPad Pro
+  @if $breakpoint == pad-pro {
+    @media (max-width: 64em) {
+      @content;
+    } //1024px
   }
   // Table Landscape
   @if $breakpoint == tab-land {
