@@ -46,7 +46,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   Me inicie en el mundo del desarrollo hace relativamente poco. Quede fascinado con
                   lo que podía crear solo escribiendo. Hoy busco oportunidades que ayuden a mi
-                  desarrollo personal. Soy una persona proactiva, con buena disposición siempre
+                  desarrollo personal. Soy una persona proactiva, con buena disposición, siempre
                   dispuesta, respetuosa y por sobre todo con ganas de trabajar en equipo.
                 </p>
                 {resume && (
